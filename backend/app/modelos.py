@@ -25,3 +25,10 @@ class DatosProduccion(BaseModel):
     anio: int
     minas: list[Mina]
     precios_fallback_usd_oz: PreciosRespaldo
+
+class RegistroProduccion(BaseModel):
+    mina_id: int
+    nombre: str
+    mes: str
+    oro_oz: int
+    plata_oz: int
