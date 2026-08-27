@@ -1,0 +1,213 @@
+{
+  "descripcion": "Producción mensual ficticia de oro y plata (onzas troy) de una empresa minera. Datos inventados para un reto técnico; NO corresponden a operaciones reales.",
+  "unidad": "onzas troy (oz)",
+  "anio": 2025,
+  "minas": [
+    {
+      "id": 1,
+      "nombre": "Mina Cerro Dorado",
+      "region": "Cajamarca",
+      "produccion": [
+        {
+          "mes": "2025-01",
+          "oro_oz": 1563,
+          "plata_oz": 3430
+        },
+        {
+          "mes": "2025-02",
+          "oro_oz": 1399,
+          "plata_oz": 3668
+        },
+        {
+          "mes": "2025-03",
+          "oro_oz": 1606,
+          "plata_oz": 4212
+        },
+        {
+          "mes": "2025-04",
+          "oro_oz": 1676,
+          "plata_oz": 3504
+        },
+        {
+          "mes": "2025-05",
+          "oro_oz": 1465,
+          "plata_oz": 3436
+        },
+        {
+          "mes": "2025-06",
+          "oro_oz": 1373,
+          "plata_oz": 4006
+        },
+        {
+          "mes": "2025-07",
+          "oro_oz": 1287,
+          "plata_oz": 3639
+        },
+        {
+          "mes": "2025-08",
+          "oro_oz": 1567,
+          "plata_oz": 4054
+        },
+        {
+          "mes": "2025-09",
+          "oro_oz": 1374,
+          "plata_oz": 4107
+        },
+        {
+          "mes": "2025-10",
+          "oro_oz": 1639,
+          "plata_oz": 3408
+        },
+        {
+          "mes": "2025-11",
+          "oro_oz": 1638,
+          "plata_oz": 4238
+        },
+        {
+          "mes": "2025-12",
+          "oro_oz": 1428,
+          "plata_oz": 3587
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Mina Rumi Punta",
+      "region": "Áncash",
+      "produccion": [
+        {
+          "mes": "2025-01",
+          "oro_oz": 355,
+          "plata_oz": 20562
+        },
+        {
+          "mes": "2025-02",
+          "oro_oz": 251,
+          "plata_oz": 18451
+        },
+        {
+          "mes": "2025-03",
+          "oro_oz": 342,
+          "plata_oz": 22913
+        },
+        {
+          "mes": "2025-04",
+          "oro_oz": 337,
+          "plata_oz": 24022
+        },
+        {
+          "mes": "2025-05",
+          "oro_oz": 304,
+          "plata_oz": 26163
+        },
+        {
+          "mes": "2025-06",
+          "oro_oz": 285,
+          "plata_oz": 22458
+        },
+        {
+          "mes": "2025-07",
+          "oro_oz": 340,
+          "plata_oz": 23043
+        },
+        {
+          "mes": "2025-08",
+          "oro_oz": 343,
+          "plata_oz": 22681
+        },
+        {
+          "mes": "2025-09",
+          "oro_oz": 325,
+          "plata_oz": 18003
+        },
+        {
+          "mes": "2025-10",
+          "oro_oz": 267,
+          "plata_oz": 20147
+        },
+        {
+          "mes": "2025-11",
+          "oro_oz": 250,
+          "plata_oz": 19649
+        },
+        {
+          "mes": "2025-12",
+          "oro_oz": 252,
+          "plata_oz": 20046
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Mina San Rafael Alto",
+      "region": "Puno",
+      "produccion": [
+        {
+          "mes": "2025-01",
+          "oro_oz": 839,
+          "plata_oz": 11416
+        },
+        {
+          "mes": "2025-02",
+          "oro_oz": 763,
+          "plata_oz": 10745
+        },
+        {
+          "mes": "2025-03",
+          "oro_oz": 733,
+          "plata_oz": 13886
+        },
+        {
+          "mes": "2025-04",
+          "oro_oz": 843,
+          "plata_oz": 12471
+        },
+        {
+          "mes": "2025-05",
+          "oro_oz": 705,
+          "plata_oz": 12990
+        },
+        {
+          "mes": "2025-06",
+          "oro_oz": 703,
+          "plata_oz": 11479
+        },
+        {
+          "mes": "2025-07",
+          "oro_oz": 941,
+          "plata_oz": 12605
+        },
+        {
+          "mes": "2025-08",
+          "oro_oz": 816,
+          "plata_oz": 12798
+        },
+        {
+          "mes": "2025-09",
+          "oro_oz": 899,
+          "plata_oz": 13192
+        },
+        {
+          "mes": "2025-10",
+          "oro_oz": 722,
+          "plata_oz": 9979
+        },
+        {
+          "mes": "2025-11",
+          "oro_oz": 747,
+          "plata_oz": 10997
+        },
+        {
+          "mes": "2025-12",
+          "oro_oz": 717,
+          "plata_oz": 13913
+        }
+      ]
+    }
+  ],
+  "precios_fallback_usd_oz": {
+    "oro": 4400,
+    "plata": 65,
+    "_nota": "Usar SOLO si la API de precios no responde."
+  }
+}
