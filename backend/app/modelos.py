@@ -1,3 +1,5 @@
+from typing import Literal
+
 from pydantic import BaseModel
 
 
@@ -33,3 +35,22 @@ class RegistroProduccion(BaseModel):
     mes: str
     oro_oz: int
     plata_oz: int
+
+
+class Precios(BaseModel):
+    oro: float
+    plata: float
+    origen: Literal["api", "respaldo"]
+
+
+class DetalleMetal(BaseModel):
+    onzas: int
+    precio_usd_oz: float
+    valor_usd: float
+
+
+class Valorizacion(BaseModel):
+    total_usd: float
+    oro: DetalleMetal
+    plata: DetalleMetal
+    origen_precios: Literal["api", "respaldo"]
