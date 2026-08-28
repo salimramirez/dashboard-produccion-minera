@@ -32,7 +32,20 @@ frontend/
 ```bash
 cd backend
 python -m venv .venv
+```
+
+**macOS / Linux:**
+```bash
 source .venv/bin/activate
+```
+
+**Windows (PowerShell):**
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+Luego, en ambos casos:
+```bash
 pip install -r requirements.txt
 cp .env.example .env   # añade tu token de GoldAPI (opcional)
 uvicorn app.main:app --reload
