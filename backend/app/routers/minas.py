@@ -42,8 +42,7 @@ def listar_resumen(mina_id: int | None = None):
 
 
 @router.get("/valorizacion", response_model=Valorizacion)
-def obtener_valorizacion(mina_id: int | None = None):
-    return calcular_valorizacion(
-        minas=obtener_minas(mina_id),
-        precios=obtener_precios(),
-    )
+async def obtener_valorizacion(mina_id: int | None = None):
+    minas = obtener_minas(mina_id)
+    precios = await obtener_precios()
+    return calcular_valorizacion(minas, precios)
